@@ -45,6 +45,7 @@ nav:
   - Usage & API: api.md
   - Trim modes & literals: trim-modes.md
   - Roadmap: roadmap.md
+  - Performance: performance.md
   - Contributing: contributing.md
 
 markdown_extensions:
