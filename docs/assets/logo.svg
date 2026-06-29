@@ -6,11 +6,12 @@
     </linearGradient>
   </defs>
   <rect width="256" height="256" rx="56" fill="url(#ruby)"/>
-  <g fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M104 72C86 100 86 156 104 184"/>
-    <path d="M152 72C170 100 170 156 152 184"/>
-    <path d="M128 100v56"/>
-    <path d="M104 114l48 28"/>
-    <path d="M104 142l48-28"/>
+  <!-- ERB delimiters <% %>: chevrons frame the embedded code, the % marks it as ERB -->
+  <g fill="none" stroke="#FFFFFF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M86 76 L44 128 L86 180"/>
+    <path d="M170 76 L212 128 L170 180"/>
+    <line x1="151" y1="90" x2="105" y2="166"/>
   </g>
+  <circle cx="111" cy="102" r="13.5" fill="#FFFFFF"/>
+  <circle cx="145" cy="154" r="13.5" fill="#FFFFFF"/>
 </svg>
