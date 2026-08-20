@@ -696,8 +696,8 @@ trim.</p>
 </div>
 <h3 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nx">src</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">erb</span><span class="p">.</span><span class="nx">Compile</span><span class="p">(</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="s">&quot;&lt;ul&gt;\n&lt;% items.each do |i| -%&gt;\n  &lt;li&gt;&lt;%= i %&gt;&lt;/li&gt;\n&lt;% end -%&gt;\n&lt;/ul&gt;\n&quot;</span><span class="p">,</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">erb</span><span class="p">.</span><span class="nx">Options</span><span class="p">{</span><span class="nx">TrimMode</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;-&quot;</span><span class="p">})</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="s">"&lt;ul&gt;\n&lt;% items.each do |i| -%&gt;\n  &lt;li&gt;&lt;%= i %&gt;&lt;/li&gt;\n&lt;% end -%&gt;\n&lt;/ul&gt;\n"</span><span class="p">,</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">erb</span><span class="p">.</span><span class="nx">Options</span><span class="p">{</span><span class="nx">TrimMode</span><span class="p">:</span><span class="w"> </span><span class="s">"-"</span><span class="p">})</span>
 </code></pre></div>
 <p>The <code>-%&gt;</code> on the <code>each</code> and <code>end</code> lines strips the newline that would otherwise
 follow each control tag, so the rendered list has no blank lines between items —
